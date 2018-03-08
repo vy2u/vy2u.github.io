@@ -6,6 +6,14 @@
   margin-top: 20px;
 }
 
+.site-title {
+  font-family: 'Sacramento', cursive;
+  font-style: italic;
+}
+.site-subtitle {
+  font-style: italic;
+}
+
 .breadcrumb {
   background-color: transparent;
   background-color: #555;
@@ -85,6 +93,20 @@
 .post__date {
   text-align: center;
   font-style: italic;
+}
+
+.post__breadcrumb {
+  border-radius: 0;
+  background-color: #555;
+}
+.post__breadcrumb .breadcrumb {
+  margin-bottom: 0;
+}
+.post__breadcrumb li a {
+  color: #fff;
+}
+.post__breadcrumb li a:hover {
+  color: #57cbcc;
 }
 
 .video-responsive{
